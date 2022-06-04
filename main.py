@@ -1,8 +1,9 @@
-import solovey_stassen_test as sst
+from trial_division_test import trial_division_test
+from pollards_ro_method import ro_method
 
 def main():
-    #p = 
-    sst(p)
+    p = 17807879769
+    print(trial_division_test(p))
 
 if __name__ == '__main__':
     main()
