@@ -1,13 +1,13 @@
 from datetime import datetime
+
+from pip import main
 import test_div
 from ro_pollard_method import floyd as ro_pollard_method
 import solovey_stassen_test
 import brilhart_morrison
 from algorythm import algorythm
 
-def calculate():
     
-
 def main():
     variant = [17807879769] #додати значення треба !!!
     
@@ -21,6 +21,7 @@ def main():
         print('Дільник числа ', pol[i], ' : ', brilhart_morrison(pol[i]))
          print('Час роботи алгоритму факторизації Брілхарта-Морісона для числа ', i, ' складає: ', datetime.now() - start_time, 'c')
     
-
+    
+    
 if __name__ == '__main__':
     main()
